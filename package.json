@@ -1,0 +1,13 @@
+{
+  "name": "sqs-http",
+  "version": "0.0.1",
+  "private": false,
+  "scripts": {
+    "start": "node ./bin/start.js"
+  },
+  "dependencies": {
+    "request": "2.x.x",
+    "sqs-consumer": "3.4.x",
+    "aws-sdk": "2.8.x"
+  }
+}
